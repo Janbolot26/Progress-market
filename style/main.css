@@ -70,6 +70,7 @@ button {
   line-height: 16px;
   color: #ffff;
 }
+
 .top-left {
   display: flex;
   justify-content: flex-start;
@@ -689,4 +690,188 @@ text-align: center;
 color: #FFFFFF;
 opacity: 0.7;
 padding-top: 60px;
+}
+
+/* Страница Компания */
+
+section.about-company{
+  padding-top: 60px;
+}
+.about-company .head-nav p{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+color: #FFFFFF;
+padding: 0;
+padding-bottom: 60px;
+}
+section.about-company h3{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+  padding-bottom: 30px;
+}
+.about-company p{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+color: #FFFFFF;
+opacity: 0.7;
+/* text-align: center; */
+padding-bottom: 100px;
+}
+header.header-company{
+height: 102px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+section.company-sec3{
+  padding-top: 100px;
+  padding-bottom: 100px;
+ /* display: inline-block;
+ justify-content: flex-start; */
+  position: relative;
+}
+
+section.company-sec3 .img-company1{
+  margin: 0;
+  width: 774px;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  height: 600px;
+  right: -60px;
+  top: 100px;
+}
+.company-sec3 .text-wrap{
+width: 40%;
+padding-top: 142px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+color: #FFFFFF;
+opacity: 0.7;
+padding-bottom: 142px;
+}
+
+section.company-sec4{
+  /* padding-top: 100px; */
+  padding-bottom: 100px;
+ /* display: inline-block;
+ justify-content: flex-start; */
+  position: relative;
+  height: 700px;
+}
+
+section.company-sec4 .img-company2{
+  margin: 0;
+  width: 774px;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  height: 600px;
+  left: -60px;
+  top: 0px;
+}
+.company-sec4 .text-wrap{
+  width: 40%;
+  padding-top: 142px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  color: #FFFFFF;
+  opacity: 0.7;
+  padding-bottom: 142px;
+  order: 2;
+  position: absolute;
+  right: 60px;
+}
+
+section.sec9{
+  padding: 60px 0 0;
+  position: relative;
+  
+  
+}
+
+
+.sec9 .blog1{
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  height: 500px;
+  /* position: relative; */
+}
+.sec9 .blog2{
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  height: 500px;
+  /* position: relative; */
+  /* top: 50px; */
+}
+
+
+
+.sec9 .block .img-wrap{
+  margin: 0;
+  width: 608px;
+  background-size: cover;
+  background-position: center;
+  /* position: absolute; */
+  height: 400px;
+  
+}
+.sec9 .block .text-wrap{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: left;
+  position: absolute;
+  
+
+}
+.sec9 .block h3{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+  color: #FFFFFF;
+ padding-bottom: 0px;
+
+  
+}
+
+.sec9 .block .text-wrap p{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: rgba(255, 255, 255, 0.7);
+width: 40%;
+padding-top: 20px;
+padding-bottom: 20px;
+margin: 0;
 }
